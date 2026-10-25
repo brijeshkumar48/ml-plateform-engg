@@ -1,0 +1,18 @@
+[project]
+name = "nemotron-small-practice"
+version = "0.1.0"
+description = "Laptop-friendly NVIDIA/Nemotron platform practice project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "httpx>=0.28",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0.3",
+    "sentence-transformers>=6.1.0",
+    "torch>=2.0",
+    "transformers>=4.40",
+    "uvicorn>=0.30",
+    "wandb>=0.18",
+]

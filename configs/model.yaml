@@ -1,0 +1,8 @@
+model:
+  name: distilgpt2
+  device: cpu
+  max_new_tokens: 32
+
+serving:
+  host: 127.0.0.1
+  port: 8014
